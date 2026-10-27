@@ -327,8 +327,9 @@ continue when that is safe.
 
 Pass `request.signal` through server frame work. The default browser resolver forwards its cancellation
 signal to `fetch()`; a custom resolver should do the same.
-[Errors and Cancellation](/errors-and-cancellation/) covers reporting policy, while
-[Production](/production/) covers disconnects, compression, and other deployment concerns.
+[Errors and Cancellation](/errors-and-cancellation/) covers reporting policy and client
+disconnects, while [Production](/production/) covers compression and other deployment
+concerns.
 
 The next chapter, [Animation](/animation/), adds motion to component insertion, removal, and layout
 changes.
