@@ -2,6 +2,16 @@
 
 This is the changelog for [`remix`](https://github.com/remix-run/remix/tree/main/packages/remix). It follows [semantic versioning](https://semver.org/).
 
+## v3.1.1
+
+### Patch Changes
+
+- Hydration boundaries now update when adding or removing `clientEntry` during HMR (see #11982). ([#11982](https://github.com/remix-run/remix/pull/11982))
+
+- Bumped `@remix-run/*` dependencies:
+  - [`cli@1.0.2`](https://github.com/remix-run/remix/releases/tag/cli@1.0.2)
+  - [`component-hmr@1.0.1`](https://github.com/remix-run/remix/releases/tag/component-hmr@1.0.1)
+
 ## v3.1.0
 
 ### Minor Changes
